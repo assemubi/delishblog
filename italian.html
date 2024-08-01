@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,6 +20,102 @@
     </header>
 
     <main>
+        <style>
+            div.gallery {
+              border: 1px solid #ccc;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+              }
+            }
+            
+            @media only screen and (max-width: 500px) {
+              .responsive {
+                width: 100%;
+              }
+            }
+            
+            .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            </style>
+            </head><body>
+            
+                <h2>Responsive Image Gallery</h2>
+                
+                <h4>Resize the browser window to see the effect.</h4>
+                
+                <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img_5terre.jpg">
+                      <img src="/apulia.jpeg" alt="" width="600" height="400">
+                    </a>
+                    <div class="desc">Orecchiette with cime di rapa sauce straight from the massive food and wheat producer, Apulian region of Italy </div>
+                  </div>
+                </div>
+                
+                
+                <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="/Lasagna-Recipe.webp">
+                      <img src="/italian.jpeg" alt="Lasagna" width="600" height="400">
+                    </a>
+                    <div class="desc">Lasagne is a layered casserole made of dough</div>
+                  </div>
+                </div>
+                
+                <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img_lights.jpg">
+                      <img src="/Tagliatelle.jpeg" alt="Tagliatelle with ragu" width="600" height="400">
+                    </a>
+                    <div class="desc">Tagliatelle with ragu. Tagliatelle can be served with a variety of sauces, though the classic is a meat sauce or Bolognese sauce.</div>
+                  </div>
+                </div>
+                
+                <div class="responsive">
+                  <div class="gallery">
+                    <a target="_blank" href="img_mountains.jpg">
+                      <img src="/bolognese.jpeg" alt="pasta" width="600" height="400">
+                    </a>
+                    <div class="desc">Among the most famous and simple dishes are: Spaghetti Napoli (Spaghetti Napoli) with tomato sauce, Spaghetti Bolognese (Spaghetti Bolognese) with tomato sauce and minced meat, Pasta alla carbonara (Pasta Carbonara) - spaghetti with small pieces of guanciale, Spaghetti Aglio e Olio (spaghetti with garlic and oil) with hot olive oil and lightly fried garlic.</div>
+                  </div>
+                </div>
+                
+                <div class="clearfix"></div>
+                
+                <div style="padding:6px;">
+                </div>
+            
         <section id="italian-cuisine">
             <div class="container">
                 <h2>Italian Cuisine 🇮🇹</h2>
@@ -26,9 +123,9 @@
 
                 <h3>Popular Dishes</h3>
                 <ul>
-                    <li><strong>Pasta Carbonara:</strong> A creamy pasta dish made with eggs, cheese, pancetta, and pepper.</li>
+                    <li><strong>Pizza:</strong>   A world-famous open pie baked with tomato sauce, cheese and a variety of optional ingredients. Among the classic varieties of Italian pizza are Margherita (with products in the colours of the Italian flag: mozzarella - white, tomato sauce - red, basil - green), Capricciosa, Diabola, Quattro formaggi ("Four Cheeses") and Quattro stagioni ("Four Seasons")</li>
                     <li><strong>Margherita Pizza:</strong> A classic pizza topped with tomatoes, mozzarella cheese, and fresh basil.</li>
-                    <li><strong>Risotto alla Milanese:</strong> A creamy risotto flavored with saffron and often served with osso buco.</li>
+                    <li><strong>Risotto alla Milanese:</strong>  A dish of rice (high starch varieties are used) in broth/water. Among the classic risottos is risotto alla milanese with onions and saffron.</li>
                 </ul>
             </div>
         </section>
